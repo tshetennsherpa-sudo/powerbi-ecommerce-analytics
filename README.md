@@ -68,7 +68,8 @@ Brazilian online marketplace (2016-2018).
 
 \- `Brazil\_Ecommerce\_Dashboard\_Portfolio.pdf` - Shareable PDF
 
-
+## Dashboard Preview
+![Dashboard Screenshot](screenshots/Brazil_Ecommerce_Dashboard_Home.jpg)
 
 \## Skills Demonstrated
 
@@ -86,12 +87,17 @@ Brazilian online marketplace (2016-2018).
 
 
 
-\## Contact
+## How to Use
+1. Download the `.pbix` file (if you add it)
+2. Open in Power BI Desktop
+3. Explore the interactive dashboard
+4. Review `TECHNICAL_DECISIONS.pdf` for methodology
 
-\[Your Name]
-
-\[Your Email]
-
+## Contact
+**Tsheten Sherpa**
+- Email: tshetenN.sherpa@gmail.com
+- LinkedIn: [Your Profile Link]
+- Portfolio: [Link to other projects]
 \[LinkedIn Profile]
 
 

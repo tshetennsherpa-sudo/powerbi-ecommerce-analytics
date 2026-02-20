@@ -69,7 +69,7 @@ Brazilian online marketplace (2016-2018).
 \- `Brazil\_Ecommerce\_Dashboard\_Portfolio.pdf` - Shareable PDF
 
 ## Dashboard Preview
-![Dashboard Screenshot](screenshots/Brazil_Ecommerce_Dashboard_Home.jpg)
+![Dashboard Screenshot](Screenshots/Brazil_Ecommerce_Dashboard_Home.jpg)
 
 \## Skills Demonstrated
 

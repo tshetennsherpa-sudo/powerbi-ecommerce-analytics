@@ -48,7 +48,7 @@ Brazilian online marketplace (2016-2018).
 
 \## Key Insights
 
-\- 💰 \*\*148x Revenue Growth\*\*: $50K (2016) → $7.4M (2018)
+\- 💰 \*\*148x Revenue Growth\*\*: $50K (2016) → $7.4M (2018), Revenue growth from 2016 to 2017 is because 2016 was partial year.
 
 \- 📈 \*\*12,264% YoY Growth\*\* (2016-2017): Product-market fit achieved
 
@@ -83,6 +83,20 @@ Brazilian online marketplace (2016-2018).
 \- Business Intelligence \& Analytics
 
 \- Interactive Dashboard Design
+
+\## Model Preview
+
+
+
+\## Some DAX Measures used
+
+Average Order Value = DIVIDE([Total Sales],[Total Orders],0)
+
+Total Orders = DISTINCTCOUNT(Order_Items[order_id])
+
+Growth 2017 vs 2016 = DIVIDE([Sales 2017] - [Sales 2016], [Sales 2016], 0)
+
+Growth 2018 vs 2017 = DIVIDE([Sales 2018] - [Sales 2017], [Sales 2017], 0)
 
 
 

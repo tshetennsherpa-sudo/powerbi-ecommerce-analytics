@@ -1,8 +1,8 @@
-\# Brazil E-Commerce Sales Analytics Dashboard
+# Brazil E-Commerce Sales Analytics Dashboard
 
 
 
-\## Overview
+## Overview
 
 Interactive Power BI dashboard analyzing 2 years of e-commerce data from a 
 
@@ -10,7 +10,7 @@ Brazilian online marketplace (2016-2018).
 
 
 
-\## Dataset
+## Dataset
 
 \- \*\*Source\*\*: Brazil E-Commerce Public Dataset (Kaggle/Olist)
 
@@ -18,9 +18,11 @@ Brazilian online marketplace (2016-2018).
 
 \- \*\*Scope\*\*: 99,441 customers, 72 product categories, 32,951 products
 
+\- \*\*Timeframe\*\*: 2016–2018 (2016 represents a partial operational year)
 
 
-\## Key Features
+
+## Key Features
 
 \- 📊 10 KPI metrics with year-over-year comparisons
 
@@ -34,7 +36,7 @@ Brazilian online marketplace (2016-2018).
 
 
 
-\## Technical Stack
+## Technical Stack
 
 \- Power BI Desktop
 
@@ -46,9 +48,9 @@ Brazilian online marketplace (2016-2018).
 
 
 
-\## Key Insights
+## Key Insights
 
-\- 💰 \*\*148x Revenue Growth\*\*: $50K (2016) → $7.4M (2018), Revenue growth from 2016 to 2017 is because 2016 was partial year.
+\- 💰 \*\*Revenue increased from $50 K (2016, partial year) to $7.4M (2018) as marketplace operations expanded.
 
 \- 📈 \*\*12,264% YoY Growth\*\* (2016-2017): Product-market fit achieved
 
@@ -60,7 +62,7 @@ Brazilian online marketplace (2016-2018).
 
 
 
-\## Files
+## Files
 
 \- `Brazil\_Ecommerce\_Dashboard\_Final.pbix` - Power BI file
 
@@ -68,10 +70,27 @@ Brazilian online marketplace (2016-2018).
 
 \- `Brazil\_Ecommerce\_Dashboard\_Portfolio.pdf` - Shareable PDF
 
+
 ## Dashboard Preview
 ![Dashboard Screenshot](Screenshots/Brazil_Ecommerce_Dashboard_Home.jpg)
 
-\## Skills Demonstrated
+
+## Data Model Design
+
+\- Central Fact table: Orders / Order_Items
+
+\- Dimension tables: Date, Customers, Category_Translation
+
+\- One-to-many relationships
+
+\- Single direction filtering
+
+\- Auto date/time disabled
+
+\- Measures preferred over calculated columns
+
+
+## Skills Demonstrated
 
 \- Data Modeling (Star Schema)
 
@@ -85,11 +104,14 @@ Brazilian online marketplace (2016-2018).
 
 \- Interactive Dashboard Design
 
-\## Model Preview
+## Model Preview
+
+![Model Screenshot](Screenshots/Brazil_Ecommerce_Model.jpg)
 
 
 
-\## Some DAX Measures used
+
+## Some DAX Measures used
 
 Average Order Value = DIVIDE([Total Sales],[Total Orders],0)
 
@@ -99,10 +121,18 @@ Growth 2017 vs 2016 = DIVIDE([Sales 2017] - [Sales 2016], [Sales 2016], 0)
 
 Growth 2018 vs 2017 = DIVIDE([Sales 2018] - [Sales 2017], [Sales 2017], 0)
 
+## Performance Considerations
 
+\- Removed unused columns
+
+\- Ensured numeric columns optimized
+
+\- Avoided high-cardinality calculated columns
+
+\- Used measures instead of row-level calculations
 
 ## How to Use
-1. Download the `.pbix` file (if you add it)
+1. Download the `.pbix` file
 2. Open in Power BI Desktop
 3. Explore the interactive dashboard
 4. Review `TECHNICAL_DECISIONS.pdf` for methodology

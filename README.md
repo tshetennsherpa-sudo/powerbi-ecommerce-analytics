@@ -140,9 +140,9 @@ Growth 2018 vs 2017 = DIVIDE([Sales 2018] - [Sales 2017], [Sales 2017], 0)
 ## Contact
 **Tsheten Sherpa**
 - Email: tshetenN.sherpa@gmail.com
-- LinkedIn: [Your Profile Link]
-- Portfolio: [Link to other projects]
-\[LinkedIn Profile]
+- LinkedIn:https://www.linkedin.com/in/tsheten-sherpa-79228b2a4/?skipRedirect=true
+- Portfolio: https://github.com/tshetennsherpa-sudo
+
 
 
 
